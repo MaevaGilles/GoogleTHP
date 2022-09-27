@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body{
+	font-family: 'Arimo', sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+/*Début de la partie nav*/
+
+#navigation{
+	display:flex;
+  	flex-wrap:wrap;
+  	justify-content: flex-end;
+
+}
+.element1
+{
+    margin: 10px;
+    padding-top: 10px;
+}
+.element2
+{
+    margin: 10px;
+    padding-top: 10px;
+}
+.element3
+{
+    
+    margin: 10px;
+}
+.user
+{
+    width: 30px;
+    margin: 10px;
+}
+
+
+p{
+	margin: 3px;
+}
+.boutons{
+
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+
+
+header p.user{
+  font-size: 30px;
+  margin-top: 10px;
+  color: #595959;
+}
+
+/*Fin de la partie nav*/
+
+/* Début de la partie cectrale */
+.google{
+
+	display: flex;
+	justify-content: center;
+
+}
+.recherche{
+	display: flex;
+	justify-content: center;
+
+}
+
+.logo{
+
+	width : 300px;
+
+}
+
+input
+{
+	position: center;
+	width: 40%;
+	margin-top: 20px;
+	padding:10px;
+	border-radius: 50px;
+	border:1px solid #d1d1d1;
+	outline:none;
+}
+
+button{
+
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border:none; 
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor:pointer;
+  color: #4d4d4d;
+  outline:none;s
+}
+
+.clic{
+
+		display: flex;
+		justify-content: center;
+		padding: 30px
+
+}
+footer{
+	display: flex;
+	justify-items: space-between;
+	align-items: flex-end;
+	background-color: #F2F2F2;
+	padding: auto;
+}
+footer .pays{
+	color: grey;
+	margin: 10px;
+}
+
+#carbone{
+	display: flex;
+	align-items: center;
+}
+footer .left{
+
+  display: flex;
+  flex-wrap:wrap;
+}
+footer .right{
+
+  display: flex;
+  flex-wrap:wrap;
+}
+
+
+
+
+
+
+/* Fin de la partie centrale */
